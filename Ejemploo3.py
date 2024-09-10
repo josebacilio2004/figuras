@@ -1,7 +1,7 @@
 class Figura:
-    def f(self, a, b):
-        result = a * b
-        return result
+    def areaDelRectángulo(self, Altura, Base):
+        area = Altura * Base
+        return area
 
 
     # Función para calcular el área de un triángulo
@@ -14,7 +14,7 @@ class Figura:
     def main(self):
         x = 4
         y = 6
-        rect_area = self.f(x, y)
+        rect_area = self.areaDelRectángulo(x, y)
         print("Área del rectángulo:", rect_area)
 
         base = 5
